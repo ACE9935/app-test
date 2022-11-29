@@ -16,7 +16,7 @@ export default function Carousel() {
   const [thumbsSwiper, setThumbsSwiper] = useState({});
 
   return (
-    <section className="px-6 sm:px-14 py-36 bg-slate-100 relative">
+    <section className="px-2 sm:px-14 py-36 bg-slate-100 relative">
     
       <Swiper
         initialSlide={1}
