@@ -31,3 +31,37 @@ a {
    background-color: #1c1917;
   }
 }
+
+.swiper-button-prev, .swiper-button-next{
+  color:black !important;
+  background-color: white;
+  padding: 20px;
+  border:2px black solid;
+  position: absolute !important;
+}
+@media screen and (max-width: 550px){
+  .swiper-button-prev, .swiper-button-next{
+    display: none !important;
+  }
+}
+.swiper-button-prev:hover, .swiper-button-next:hover:hover{
+ background-color: aliceblue;
+}
+.swiper-button-prev:active, .swiper-button-next:hover:active{
+  background-color: rgb(194, 202, 209);
+ }
+ .swiper-pagination {
+	position: absolute;
+	bottom: 0;
+}
+.swiper-pagination-bullet {
+  border-radius: 100%;
+  width:15px;
+  height:15px;
+  background: #c8c1c1b4;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+	color:#fff;
+	background: white;
+}

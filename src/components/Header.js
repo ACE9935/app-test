@@ -14,7 +14,7 @@ function Header() {
     const StyledLink = styled.li`
     padding:10px 0px 10px 0px;
     position:relative;
-    color:white;
+    color:black;
     :after{
         content:'';
         z-index:2;
@@ -22,14 +22,14 @@ function Header() {
         position:absolute;
         width:0%;
         height:100%;
-        background:#c78e62;
+        background:black;
         top:0;
         left:0;
         z-index:-1;
         transition:width 0.3s,color 0.2s;
     }
     :hover{
-        color:black;
+        color:white;
         transition:color 0.2s;
     }
     :hover:after{
@@ -39,7 +39,8 @@ function Header() {
     `
 
     return ( 
-        <header className="absolute grid place-items-center w-full z-10">
+        <header className="absolute grid place-items-center w-full z-10"
+        >
             <nav className="max-w-[110rem] w-full px-5 py-5 sm:px-12 flex justify-between items-center">
             <img src="hlogo.jpg" className="w-[5.8rem] sm:w-[8rem]" alt='Hideaway Coffee'/>
             <ul className="flex space-x-5 sm:space-x-10">
