@@ -50,18 +50,15 @@ a {
 .swiper-button-prev:active, .swiper-button-next:hover:active{
   background-color: rgb(194, 202, 209);
  }
- .swiper-pagination {
-	position: absolute;
-	bottom: 0;
-}
 .swiper-pagination-bullet {
   border-radius: 100%;
   width:15px;
   height:15px;
-  background: #c8c1c1b4;
+  background: #c8c1c1d0;
   opacity: 1 !important;
 }
 .swiper-pagination-bullet-active {
 	color:#fff;
 	background: white;
+  transform: scale(1.3);
 }

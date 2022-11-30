@@ -28,7 +28,7 @@ const list = {
 function Welcome() {
     return ( 
         <section className="linear-gradient-bg relative bg-main-black pt-[8rem] flex justify-center">
-            <div className="w-full max-w-[100rem] px-[1rem] sm:px-[3rem] py-24">
+            <div className="w-full max-w-[100rem] px-[1rem] sm:px-[3rem] pt-40 sm:pt-24 sm:pb-24">
             <motion.div 
             initial="hidden"
             animate="visible"

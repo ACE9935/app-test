@@ -4,7 +4,7 @@ const links=[
     {title:'ABOUT US',
      url:'#'
 },
-{title:'CONTACT US',
+{title:'FIND US',
      url:'#'
 }
 ]
