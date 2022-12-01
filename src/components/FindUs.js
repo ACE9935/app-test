@@ -10,7 +10,7 @@ function FindUs() {
             <SectionTitle centered={true}>Find Us</SectionTitle>
             <div className="relative w-full flex justify-center pt-[4.3rem] pb-[1.7rem]">
             <iframe src=
-"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.405942255176!2d-0.1437702451581277!3d51.51135410000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876057cc8805b41%3A0x60c897012e57e344!2sHideaway%20Coffee!5e0!3m2!1sfr!2sfr!4v1669886520434!5m2!1sfr!2sfr"
+"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.435419003732!2d-0.14374844515812804!3d51.51121889999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876057cc8805b41%3A0x60c897012e57e344!2sHideaway%20Coffee!5e0!3m2!1sen!2sfr!4v1669901633905!5m2!1sen!2sfr"
                     className="max-w-[60rem] w-full aspect-[1/1] sm:aspect-[1/0.5]"
                     frameBorder="0"
                     allowFullScreen=""
