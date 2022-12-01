@@ -41,18 +41,13 @@ function Welcome() {
             variants={item2}
             alt="Hideaway coffee" src="s2.png" className="object-cover border-[0.26em] border-main-black w-[clamp(13rem,50%,19rem)] shadow-xl aspect-[1/1.3] mt-[clamp(-110px,-20%,-12rem)]  sm:mt-[clamp(-230px,-20%,-12rem)] ml-[clamp(120px,36%,22rem)]"/>
             </motion.div>
-            <article className="z-10 text-center pb-[210px] absolute m-auto inset-0 w-fit h-fit grid place-items-center">
-                <Typography className="heading-s1 !leading-[1.1] relative !font-bold !text-[calc(3.8rem+0.6vw)] md:!text-[7rem] lg:pb-6 p-2 text-black">HIDEAWAY COFFEE</Typography>
-                <h3 className="text-white bg-black p-2 text-3xl lg:text-5xl !font-bold mt-6">Cafe in London</h3>
+            <article className="fade-to-view z-10 text-center pb-[200px] absolute m-auto inset-0 w-fit h-fit grid place-items-center">
+                <Typography className="heading-s1 !leading-[1.1] relative !font-bold !text-[calc(3.9rem+0.6vw)] md:!text-[7rem] lg:pb-6 p-2 text-black">HIDEAWAY COFFEE</Typography>
+                <h3 className="text-white bg-black p-2 text-3xl lg:text-5xl !font-[500] mt-6">Cafe in London</h3>
             </article>
             <style jsx='true'>{ `
       .linear-gradient-bg{
           background-image: radial-gradient(circle at 0 20%,#64748b 30%, transparent 30.06%), radial-gradient(circle at 100% 23% ,#64748b 10%, transparent 10.06%),linear-gradient(190deg,#cbd5e1 0%, #f1f5f9 80%);
-      }
-      .heading-s1{
-        -webkit-text-stroke: 0.04em black;
-        color:transparent;
-        color:#f8fafc;
       }
       `
   }</style>

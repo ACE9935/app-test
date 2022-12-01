@@ -2,10 +2,10 @@ import styled from "@emotion/styled";
 
 const links=[
     {title:'ABOUT US',
-     url:'#'
+     url:'#AboutUs'
 },
 {title:'FIND US',
-     url:'#'
+     url:'#FindUs'
 }
 ]
 
