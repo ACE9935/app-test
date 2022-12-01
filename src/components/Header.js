@@ -42,13 +42,13 @@ function Header() {
         <header className="absolute grid place-items-center w-full z-10"
         >
             <nav className="max-w-[110rem] w-full px-5 py-5 sm:px-12 flex justify-between items-center">
-            <img src="hlogo.jpg" className="w-[5.8rem] sm:w-[8rem]" alt='Hideaway Coffee'/>
+            <a href="/"><img src="hlogo.jpg" className="w-[5.8rem] sm:w-[8rem] cursor-pointer pointer-events-none" alt='Hideaway Coffee'/></a>
             <ul className="flex space-x-5 sm:space-x-10">
                 {links.map(
                   (o,i)=><StyledLink key={i} className="!font-[600]"><a href={o.url} className="py-[10px] px-[5px]">{o.title}</a></StyledLink>
                 )}
             </ul>
-            </nav>
+            </nav> 
             
         </header>
      );
