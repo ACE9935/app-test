@@ -17,7 +17,7 @@ function FindUs() {
                     tabIndex="0">
             </iframe>
             </div>
-            <p className="text-slate-1200 text-center leading-[1.6]">7 Farrier's Psge, London W1D 7DP, Royaume-Uni</p>
+            <p className="text-slate-1200 text-center leading-[1.6]">7 Farrier's Psge, London W1D 7DP, United Kingdom</p>
             <style jsx='true'>{`
              .fu-gradient{
                 background:linear-gradient(180deg,#374151 50%,#171717 50%)

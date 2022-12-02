@@ -17,6 +17,7 @@ function App() {
       gsap.fromTo(i,{opacity:0,y:130},{opacity:1,y:0,duration:0.7,
         scrollTrigger:{
           trigger: i,
+          start: '-=420'
         }})
       )
       gsap.fromTo('.fade-to-view',{opacity:0},{opacity:1,duration:1.2,

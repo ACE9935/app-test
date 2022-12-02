@@ -44,7 +44,7 @@ export default function Carousel() {
           slideShadows: true,
         }}
         modules={[EffectCoverflow, Pagination,Navigation]}
-        className="max-w-[100rem] !pb-12"
+        className="max-w-[86rem] !pb-12"
       >
         {
             images.map((o,i)=>
